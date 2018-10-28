@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_black">#000000</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_topbar">#333333</color>
+    <color name="bg_gray">#F1F1F1</color>
+    <color name="transparent">#ffFFFF</color>
+    <color name = "bg_yellow">#fffadb</color>
+
+
+
+    <color name = "浅黄">#FFCC00</color>
+    <color name = "卵黄">#FF9900</color>
+    <color name = "橘黄">#FF8800</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF9900</color>
+    <color name="blue_200">#FF90CAF9</color>
+    <color name="blue_500">#FF2196F3</color>
+    <color name="blue_700">#FF1976D2</color>
+
+
+
+
+    <color name="text_gray">#8D7A71</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_yellow">#FFC800</color>
+    <color name="text_topbar">#eeeeee</color>
+    <color name="div_white">#E5E5E5</color>
+
+
+
+
+</resources>

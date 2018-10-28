@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_item1"
+        android:title="添加好友"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_item2"
+        android:title="申请加群"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_item3"
+        android:title="修改个人资料"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/bg_yellow">
+
+    <RelativeLayout
+        android:id="@+id/ly_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/bg_topbar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/file_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/卵黄">
+
+            <!--自定义控件-->
+            <TextView
+                android:id="@+id/txt_topbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="标题"
+                android:textSize="18sp"
+                android:textColor="@color/text_white" />
+        </android.support.v7.widget.Toolbar>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:fadingEdge="vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:id="@+id/teamMes">
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/teamSendText"
+                android:layout_weight="1"/>
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/bg_white"
+                android:background="@color/卵黄"
+            android:text="发送"
+            android:id="@+id/teamSend_b" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+

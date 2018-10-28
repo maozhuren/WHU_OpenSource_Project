@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="account">帐 号</string>
+    <string name="action_settings">Settings</string>
+    <string name="token">密 码</string>
+    <string name="login">登 录</string>
+    <string name="send_text">发送文本</string>
+    <string name="send_pic">发送图片</string>
+    <string name="logout">注 销</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+
+    <string name="register">注册</string>
+
+    <string name="tab_menu_team">团体</string>
+    <string name="tab_menu_messages">消息</string>
+    <string name="tab_menu_friend">朋友</string>
+    <string name="tab_menu_profile">个人</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_register_test">RegisterTest</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="app_repo">https://github.com/mthli/Knife</string>
+
+    <!-- Menu -->
+    <string name="menu_undo">Undo</string>
+    <string name="menu_redo">Redo</string>
+    <string name="menu_github">GitHub</string>
+    <string name="menu_save">Save</string>
+
+    <!-- Dialog -->
+    <string name="dialog_title">Insert link</string>
+    <string name="dialog_name">Input name</string>
+    <string name="dialog_edit_hint">http(s)://</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Cancel</string>
+
+    <!-- Toast -->
+    <string name="toast_bold">Bold</string>
+    <string name="toast_italic">Italic</string>
+    <string name="toast_underline">Underline</string>
+    <string name="toast_strikethrough">Strikethrough</string>
+    <string name="toast_bullet">Bullet</string>
+    <string name="toast_quote">Quote</string>
+    <string name="toast_insert_link">Insert link</string>
+    <string name="toast_format_clear">Format clear</string>
+
+</resources>
